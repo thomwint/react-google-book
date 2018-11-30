@@ -2,7 +2,7 @@ import React from "react";
 
 export function DeleteBtn(props) {
     return (
-        <button className="delete-btn" {...props}>
+        <button {...props}>
             Delete
         </button>
     );
@@ -10,7 +10,7 @@ export function DeleteBtn(props) {
 
 export function ViewBtn(props) {
     return (
-        <button className="view-btn" {...props}>
+        <button {...props}>
             View
       </button>
     );
@@ -18,7 +18,7 @@ export function ViewBtn(props) {
 
 export function SaveBtn(props) {
     return (
-        <button className="save-btn" {...props}>
+        <button {...props}>
             Save
         </button>
     )
